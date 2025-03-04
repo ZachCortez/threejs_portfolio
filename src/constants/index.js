@@ -94,6 +94,43 @@ export const myProjects = [
             },
         ],
     },
+    // {
+    //     title: 'Xora - AI-Powered Productivity Hub',
+    //     desc: 'Xora is an AI-driven productivity platform that integrates task management, scheduling, and intelligent automation to streamline workflow efficiency. Designed for individuals and teams, Xora enhances productivity with AI-generated insights and smart organization tools.',
+    //     subdesc:
+    //         'Built with Next.js and TypeScript, Xora leverages AI to automate routine tasks, provide data-driven recommendations, and optimize daily workflows for maximum efficiency.',
+    //     href: 'https://github.com/ZachCortez/Xora',
+    //     texture: '/textures/project/xora.mp4',
+    //     logo: '/assets/xora.png',
+    //     logoStyle: {
+    //         backgroundColor: '#1A1A2E',
+    //         border: '0.2px solid #16213E',
+    //         boxShadow: '0px 0px 60px 0px #0F3460',
+    //     },
+    //     spotlight: '/assets/spotlight2.png',
+    //     tags: [
+    //         {
+    //             id: 1,
+    //             name: 'React.js',
+    //             path: '/assets/react.svg',
+    //         },
+    //         {
+    //             id: 2,
+    //             name: 'TailwindCSS',
+    //             path: 'assets/tailwindcss.png',
+    //         },
+    //         {
+    //             id: 3,
+    //             name: 'TypeScript',
+    //             path: '/assets/typescript.png',
+    //         },
+    //         {
+    //             id: 4,
+    //             name: 'Framer Motion',
+    //             path: '/assets/framer.png',
+    //         },
+    //     ],
+    // },
     {
         title: 'LiveDoc - Real-Time Google Docs Clone',
         desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
@@ -207,43 +244,6 @@ export const myProjects = [
             },
         ],
     },
-    {
-        title: 'Imaginify - AI Photo Manipulation App',
-        desc: 'Imaginify is a groundbreaking Software-as-a-Service application that empowers users to create stunning photo manipulations using AI technology. With features like AI-driven image editing, a payments system, and a credits-based model.',
-        subdesc:
-            'Built with Next.js 14, Cloudinary AI, Clerk, and Stripe, Imaginify combines cutting-edge technology with a user-centric approach. It can be turned into a side income or even a full-fledged business.',
-        href: 'https://www.youtube.com/watch?v=Ahwoks_dawU',
-        texture: '/textures/project/project5.mp4',
-        logo: '/assets/project-logo5.png',
-        logoStyle: {
-            backgroundColor: '#1C1A43',
-            border: '0.2px solid #252262',
-            boxShadow: '0px 0px 60px 0px #635BFF4D',
-        },
-        spotlight: '/assets/spotlight5.png',
-        tags: [
-            {
-                id: 1,
-                name: 'React.js',
-                path: '/assets/react.svg',
-            },
-            {
-                id: 2,
-                name: 'TailwindCSS',
-                path: 'assets/tailwindcss.png',
-            },
-            {
-                id: 3,
-                name: 'TypeScript',
-                path: '/assets/typescript.png',
-            },
-            {
-                id: 4,
-                name: 'Framer Motion',
-                path: '/assets/framer.png',
-            },
-        ],
-    },
 ];
 
 export const calculateSizes = (isSmall, isMobile, isTablet) => {
@@ -256,33 +256,79 @@ export const calculateSizes = (isSmall, isMobile, isTablet) => {
         targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
     };
 };
-
+// export const workExperiences = [
+//     {
+//         id: 1,
+//         name: 'Selling Eastside RE LLC',
+//         pos: 'Real Estate Assistant/Operations Manager',
+//         duration: 'Jan 2024 - Apr 2024',
+//         title: "Managed daily operations, scheduled property transactions, and enhanced workflow efficiency. Led marketing initiatives, maintained websites, and utilized AI-driven lead generation to improve engagement. Conducted market research and coordinated with vendors to ensure compliance and optimal service.",
+//         icon: '/assets/real-estate.svg',
+//         animation: 'victory',
+//     },
+//     {
+//         id: 2,
+//         name: 'Xcite Automotive',
+//         pos: 'Automotive Photographer & Senior Account Representative',
+//         duration: 'Oct 2019 - Sep 2020 & Feb 2021 - Jan 2024',
+//         title: "Captured high-quality automotive images for marketing, collaborated on visual storytelling, and managed key client accounts. Led photo shoots, strengthened client relationships, and identified revenue opportunities through upselling strategies.",
+//         icon: '/assets/xcite.svg',
+//         animation: 'clapping',
+//     },
+//     {
+//         id: 3,
+//         name: 'Michael’s Toyota of Bellevue',
+//         pos: 'Automotive Technician',
+//         duration: 'Jul 2014 - Nov 2015 & Aug 2016 - Dec 2017',
+//         title: "Performed routine vehicle maintenance, assisted senior technicians, and optimized operations through inventory management. Provided leadership by training staff and improving service standards.",
+//         icon: '/assets/toyota.svg',
+//         animation: 'salute',
+//     },
+//     {
+//         id: 4,
+//         name: 'RideKleen - Mobile Car Care',
+//         pos: 'Fleet Agent',
+//         duration: 'Jun 2019 - Sep 2019',
+//         title: "Managed fleet operations, ensuring vehicle maintenance, regulatory compliance, and scheduling. Implemented process improvements and maintained vendor relationships for seamless fleet management.",
+//         icon: '/assets/ridekleen.svg',
+//         animation: 'gear',
+//     },
+//     {
+//         id: 5,
+//         name: 'Little Caesars Pizza',
+//         pos: 'Store Manager',
+//         duration: 'Nov 2015 - Aug 2016',
+//         title: "Oversaw multiple store operations, optimizing inventory, staffing, and costs. Led and trained teams, enhanced customer service, and implemented marketing strategies to drive sales growth.",
+//         icon: '/assets/littlecaesars.svg',
+//         animation: 'fire',
+//     },
+// ];
 export const workExperiences = [
     {
         id: 1,
-        name: 'Framer',
-        pos: 'Lead Web Developer',
-        duration: '2022 - Present',
-        title: "Framer serves as my go-to tool for creating interactive prototypes. I use it to bring designs to  life, allowing stakeholders to experience the user flow and interactions before development.",
-        icon: '/assets/framer.svg',
+        name: 'SellingEastside RE',
+        pos: 'Operations Manager/Lead Web Developer',
+        duration: 'Jan 2025 - April 2025',
+        title: "Spearheaded daily operations, scheduling, and customer service initiatives.",
+        icon: '/assets/SellingEastsideRE(2024).png',
         animation: 'victory',
     },
     {
         id: 2,
-        name: 'Figma',
-        pos: 'Web Developer',
-        duration: '2020 - 2022',
-        title: "Figma is my collaborative design platform of choice. I utilize it to work seamlessly with team members and clients, facilitating real-time feedback and design iterations. Its cloud-based.",
-        icon: '/assets/figma.svg',
+        name: 'Xcite Automotive',
+        pos: 'Automotive Photographer',
+        duration: 'Feb 2021 - Jan 2024',
+        title: "Captured high-quality automotive images for marketing and dealership use.",
+        icon: '/assets/xciteauto.png',
         animation: 'clapping',
     },
     {
         id: 3,
-        name: 'Notion',
-        pos: 'Junior Web Developer',
-        duration: '2019 - 2020',
-        title: "Notion helps me keep my projects organized. I use it for project management, task tracking, and as a central hub for documentation, ensuring that everything from design notes to.",
-        icon: '/assets/notion.svg',
+        name: 'Coding Dojo',
+        pos: 'Developer in Training',
+        duration: 'Sep 2020 - Jan 2021',
+        title: "Completed an intensive full-stack development program focusing on Python, MERN, and C#.",
+        icon: '/assets/coding-dojo-logo.png',
         animation: 'salute',
     },
 ];

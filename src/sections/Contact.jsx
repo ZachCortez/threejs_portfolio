@@ -15,7 +15,7 @@ const Contact = () => {
     const handleChange = ({ target: { name, value } }) => {
         setForm({ ...form, [name]: value });
     };
-
+    // service_t1j6nxm
     const handleSubmit = (e) => {
         e.preventDefault();
         setLoading(true);
