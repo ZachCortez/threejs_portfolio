@@ -20,41 +20,74 @@ export const navLinks = [
         href: '#contact',
     },
 ];
-
 export const clientReviews = [
     {
         id: 1,
-        name: 'Emily Johnson',
-        position: 'Marketing Director at GreenLeaf',
+        name: 'Amy Gerrits',
+        position: 'Co-Founder at SellingEastsideRE',
         img: 'assets/review1.png',
         review:
-            'Working with Zach was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+            'Working with Zach was an incredible experience. He was responsible for all operations management, including the creation of our brand, logo, and website. He also handled all of our digital marketing and email campaigns with precision and creativity. His dedication to our company’s success was evident, and his work played a crucial role in our growth.',
     },
     {
         id: 2,
-        name: 'Mark Rogers',
-        position: 'Founder of TechGear Shop',
+        name: 'Chris Rosales',
+        position: 'Area Manager at Xcite Automotive',
         img: 'assets/review2.png',
         review:
-            'Zach’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+            'Zach was instrumental in managing our dealership photography for Mercedes, BMW, Audi, and Porsche of Bellevue. He took stunning photos of the cars and designed eye-catching window stickers. Additionally, Zach consistently delivered thorough daily end-of-day reports on fleet status. His attention to detail and professionalism were invaluable.',
     },
     {
         id: 3,
-        name: 'John Dohsas',
-        position: 'Project Manager at UrbanTech ',
+        name: 'Edward T.',
+        position: 'Instructor at Coding Dojo Bellevue',
         img: 'assets/review3.png',
         review:
-            'I can’t say enough good things about Zach. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+            'Zach was an outstanding student at Coding Dojo. He picked up concepts quickly and was always eager to learn and improve his skills. His ability to grasp complex programming topics and his work ethic would make him a valuable asset to any company. I have no doubt that he will succeed in his career and make a meaningful impact in the tech industry.',
     },
     {
         id: 4,
-        name: 'Ether Smith',
-        position: 'CEO of BrightStar Enterprises',
+        name: 'Anton S.',
+        position: 'Manager at Toyota of Bellevue',
         img: 'assets/review4.png',
         review:
-            'Zach was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+            'Zach worked with us for several years at Toyota of Bellevue, starting as a Lube Technician and progressing to a Level 2 Express Technician. Over the course of his time here, Zach became known for his exceptional work ethic, speed, and teamwork. He quickly became a trusted member of the team and was always willing to go above and beyond to help others. His dedication to his work was truly commendable.',
     },
 ];
+// export const clientReviews = [
+//     {
+//         id: 1,
+//         name: 'Emily Johnson',
+//         position: 'Marketing Director at GreenLeaf',
+//         img: 'assets/review1.png',
+//         review:
+//             'Working with Zach was a fantastic experience. He transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.',
+//     },
+//     {
+//         id: 2,
+//         name: 'Mark Rogers',
+//         position: 'Founder of TechGear Shop',
+//         img: 'assets/review2.png',
+//         review:
+//             'Zach’s expertise in web development is truly impressive. He delivered a robust and scalable solution for our e-commerce site, and our online sales have significantly increased since the launch. He’s a true professional! Fantastic work.',
+//     },
+//     {
+//         id: 3,
+//         name: 'John Dohsas',
+//         position: 'Project Manager at UrbanTech ',
+//         img: 'assets/review3.png',
+//         review:
+//             'I can’t say enough good things about Zach. He was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.',
+//     },
+//     {
+//         id: 4,
+//         name: 'Ether Smith',
+//         position: 'CEO of BrightStar Enterprises',
+//         img: 'assets/review4.png',
+//         review:
+//             'Zach was a pleasure to work with. He understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend backend dev are top-notch.',
+//     },
+// ];
 
 export const myProjects = [
     {
